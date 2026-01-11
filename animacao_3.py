@@ -1,4 +1,4 @@
-# Fluxo do campo elétrico gerado por uma partícula carregada em uma superfície esférica
+# ANIMAÇÃO 3: Fluxo do campo elétrico gerado por uma partícula carregada em uma superfície esférica
 from manim import *
 from manim_physics import *
 import numpy as np
@@ -392,4 +392,5 @@ class campo_E_3D(ThreeDScene):
         
         # P. Finalização: remoção gradual dos elementos
         self.play(FadeOut(sphere4), run_time=5)
+
         self.wait(5)
