@@ -40,7 +40,7 @@ Sugere-se a utilização das animações como:
 
 Consulte:
 📄 [material_instrucional](docs/material_instrucional_leonardo_castro/)
-📄 [ManimCommunty](https://codeberg.org/ManimCommunity)
+📄 [ManimCommunity](https://codeberg.org/ManimCommunity)
 📄 [manual/Explora](https://explora.ft.unicamp.br/animacoes/Manual_Manim_Github.html)
 
 ---
