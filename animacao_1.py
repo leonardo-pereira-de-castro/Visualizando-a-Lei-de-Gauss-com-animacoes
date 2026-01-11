@@ -1,5 +1,4 @@
-# ANIMAÇÃO 1 - FLUXO DE UM CAMPO ELÉTRICO UNIFORME ATRAVÉS DE UMA SUPERFÍCIE PLANA
-
+# ANIMAÇÃO 1: Fluxo do campo elétrico através de uma superfície plana
 from manim import *
 import numpy as np
 from math import degrees
@@ -309,4 +308,5 @@ class open_flux(ThreeDScene):
         self.begin_ambient_camera_rotation(rate=0.1)  # Inicia uma rotação suave e contínua da câmera
         self.wait(15)  # Mantém a animação por 15 segundos
         
+
 
