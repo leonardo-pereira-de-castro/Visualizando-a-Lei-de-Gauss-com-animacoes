@@ -1,33 +1,22 @@
 # 🎬 Visualizando a Lei de Gauss com animações
-
 Este repositório apresenta um **produto instrucional** desenvolvido para apoiar o ensino e a aprendizagem da **Lei de Gauss**, por meio de **animações curtas** criadas com a biblioteca **Manim (Python)**.
 
 O material foi pensado para professores e estudantes, com foco na **visualização de conceitos abstratos da Eletrostática**.
 
 ---
-
 ## 🎯 Objetivo Geral
-
 Facilitar a compreensão dos conceitos de **fluxo de campo elétrico** e da **Lei de Gauss**
 
 ---
-
 ## 🗂️ Organização do Repositório
 
-O projeto está organizado em três eixos principais:
+O projeto está organizado em:
 
-* 📘 **Produto Instrucional** – materiais pedagógicos e orientações didáticas
-* 🎬 **Animações** – links públicos para vídeos no YouTube
+* 📘 **Produto Instrucional** – material para aula e sugestões de uso das animações 
+* 🎬 [**Animações**](https://www.youtube.com/playlist?list=PLOpdbySqNb69XZsFE3uUaYhe14G-fjeOF)– links públicos para vídeos no YouTube
 * 💻 **Códigos** – scripts das animações desenvolvidas em Manim
 
-```
-docs/       → materiais didáticos
-animacoes/  → links dos vídeos (YouTube)
-scripts/    → códigos das animações (Manim)
-```
-
 ---
-
 ## 🎬 Catálogo de Animações
 
 | # | Tema                           | Código-Fonte das animações                                                       | Vídeo   |
@@ -42,7 +31,6 @@ scripts/    → códigos das animações (Manim)
 ---
 
 ## 📚 Uso Pedagógico
-
 Sugere-se a utilização das animações como:
 
 * Introdução conceitual
@@ -53,12 +41,10 @@ Sugere-se a utilização das animações como:
 Consulte:
 📄 [material_instrucional](docs/material_instrucional_leonardo_castro/)
 📄 [ManimCommunty](https://codeberg.org/ManimCommunity)
-📄 [Explora](https://explora.ft.unicamp.br/animacoes/Manual_Manim_Github.html))
+📄 [manual/Explora](https://explora.ft.unicamp.br/animacoes/Manual_Manim_Github.html)
 
 ---
-
 ## 📜 Licença
-
 Este projeto está licenciado sob a **Licença MIT**.
 
 ---
