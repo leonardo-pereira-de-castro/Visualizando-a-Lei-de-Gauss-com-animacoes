@@ -1,4 +1,4 @@
-# cubic fluxo
+# ANIMAÇÃO 2: Fluxo do campo elétrico através de uma superfície fechada
 from manim import *
 import numpy as np
 import math
@@ -269,4 +269,5 @@ class cubic_flux(ThreeDScene):
         
         # Finaliza removendo o cubo
         self.play(FadeOut(cube))
+
         
