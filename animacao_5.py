@@ -4,7 +4,7 @@ from manim_physics import *
 import numpy as np
 import random 
 
-class charge_gauss_2D_dipole_2_final(Scene):
+class dipolo_2D(Scene):
     def construct(self):
         # ============================================================
         # 1. DEFINIÇÃO DAS SUPERFÍCIES GAUSSIANAS
@@ -239,4 +239,5 @@ class charge_gauss_2D_dipole_2_final(Scene):
             FadeIn(field_tri),                       # Restaura campo triplo
             lag_ratio=0.5
         ))
+
         self.wait(3)
