@@ -4,58 +4,11 @@ import numpy as np
 from math import degrees
 import math
 
-class angulo_solido_teste_final(ThreeDScene):
+class angulo_solido(ThreeDScene):
     def construct(self):
         # ================== ÂNGULO PLANO 2D ==================
         # Configura a câmera para visão de cima (plano XY)
         self.set_camera_orientation(phi=0, theta=-90*DEGREES)
-        
-        # Parâmetros para controlar a forma da superfície irregular (batata)
-        base_radius = 1.0
-        deform_strength = 0.3   # Intensidade da deformação principal
-        noise_level = 0.15      # Intensidade dos detalhes da superfície
-
-        # Função paramétrica para a forma de batata (superfície irregular)
-        def potato(u, v):
-            theta = u  # Ângulo polar [0, π]
-            phi = v    # Ângulo azimutal [0, 2π]
-            
-            # Raio com múltiplas deformações para criar forma orgânica
-            r = base_radius * (
-                1 
-                + deform_strength * np.sin(theta)**2 * np.cos(theta)**2  # Lobos primários
-                + 0.5*deform_strength * np.sin(theta) * np.cos(phi)  # Saliências secundárias
-                + noise_level * (np.sin(7*theta) * np.cos(5*phi)  # Textura de alta frequência
-            ))
-            
-            # Fatores de esticamento direcional para tornar a forma assimétrica
-            x_stretch = 1 + 0.2 * np.sin(phi)
-            y_stretch = 1 + 0.3 * np.cos(2*theta)
-            z_stretch = 1 + 0.1 * np.sin(3*phi)
-            
-            # Converte para coordenadas cartesianas com esticamento orgânico
-            return np.array([
-                2.5 * r * np.sin(theta) * np.cos(phi) * x_stretch,
-                2.5 * r * np.sin(theta) * np.sin(phi) * y_stretch,
-                2.5 * r * np.cos(theta) * z_stretch
-            ])
-
-        # Cria a superfície da batata com cores naturais
-        potato_surface = Surface(
-            potato,
-            u_range=[0, PI], 
-            v_range=[0, TAU],
-            resolution=(50, 50),  # Alta resolução para detalhes
-            fill_color=GOLD_E,
-            fill_opacity=0.2,
-            stroke_color=GOLD_B,
-            stroke_width=0.2
-        ).scale(1.2)
-
-        # Adiciona variação de cor baseada na profundidade
-        potato_surface.set_color_by_gradient(
-            GOLD_D, GOLD_B, GOLD_A  # Cores de batata (tons de marrom/dourado)
-        )
         
         # ================== COMPONENTES DO ÂNGULO PLANO ==================
         # Cria os elementos do ângulo plano: centro, círculo e raios
@@ -257,4 +210,5 @@ class angulo_solido_teste_final(ThreeDScene):
         
         # Zoom no vetor normal externo
         self.move_camera(zoom=2, focal_point=normal_vector_2.get_center(), run_time=3)
+
         self.wait(2)
