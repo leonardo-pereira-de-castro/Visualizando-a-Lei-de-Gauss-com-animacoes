@@ -47,7 +47,7 @@ Consulte:
 📄 | [ManimCommunity](https://codeberg.org/ManimCommunity) |
 
 
-📄 | [Manim3b1b](https://github.com/3b1b/manim?tab=readme-ov-file)] |
+📄 | [Manim3b1b](https://github.com/3b1b/manim?tab=readme-ov-file) |
 
 
 📄 | [manual/Explora](https://explora.ft.unicamp.br/animacoes/Manual_Manim_Github.html) |
