@@ -12,7 +12,7 @@ Facilitar a compreensão dos conceitos de **fluxo de campo elétrico** e da **Le
 
 O projeto está organizado em:
 
-* 📘 [**Material Instrucional**][(https://github.com/leonardo-pereira-de-castro/Visualizando-a-Lei-de-Gauss-com-animacoes/blob/main/leonardo_castro_mpef_produto_instrucional_2026.pdf)]  – material para aula e sugestões de uso das animações
+* 📘 [**Material Instrucional**](https://github.com/leonardo-pereira-de-castro/Visualizando-a-Lei-de-Gauss-com-animacoes/blob/main/leonardo_castro_mpef_produto_instrucional_2026.pdf)  – material para aula e sugestões de uso das animações
 * 🎬 [**Animações**](https://www.youtube.com/playlist?list=PLOpdbySqNb69XZsFE3uUaYhe14G-fjeOF)– links públicos para vídeos no YouTube
 * 💻 **Códigos** – scripts das animações desenvolvidas em Manim (tabela abaixo)
 
