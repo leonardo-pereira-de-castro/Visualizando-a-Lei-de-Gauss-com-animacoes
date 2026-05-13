@@ -41,7 +41,7 @@ Sugere-se a utilização das animações como:
 Consulte:
 
 
-📄 | [material_instrucional](docs/material_instrucional_leonardo_castro/) | (em breve)
+📄 | [material_instrucional](https://github.com/leonardo-pereira-de-castro/Visualizando-a-Lei-de-Gauss-com-animacoes/blob/main/leonardo_castro_mpef_produto_instrucional_2026.pdf) |
 
 
 📄 | [ManimCommunity](https://codeberg.org/ManimCommunity) |
